@@ -61,20 +61,6 @@ html, body {
 	background-image: linear-gradient(to right, #dc3545, #38080d);
 }
 
-.cadastro{
-	margin-bottom: 10px;
-}
-
-.cadastro > button{
-	background-image: linear-gradient(to right, red, blue);
-	width: 100%;
-	border-radius: 100px;
-	padding: 15px;
-	color: white;
-	border: 0px;
-	outline: 0;
-}
-
 .title{
 	color: #dc3545;
 }
