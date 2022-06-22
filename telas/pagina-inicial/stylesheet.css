@@ -8,7 +8,7 @@ html, body {
 }
 
 .corpo {
-	background: linear-gradient(white, red);
+	background: linear-gradient(white, #007FFF);
 }
 
 .form {
@@ -39,6 +39,10 @@ html, body {
 	display: block;
 }
 
+.checkbox {
+	margin-right: 5px;
+}
+
 .card-group > input{
 	border-radius: 5px;
 	outline: 0;
@@ -49,7 +53,7 @@ html, body {
 
 .card-group > button{
 	text-align: center;
-	background-image: linear-gradient(to right, red, blue);
+	background-color: rgb(37, 150, 190);
 	width: 100%;
 	border-radius: 100px;
 	padding: 15px;
@@ -59,14 +63,14 @@ html, body {
 }
 
 .btn button:hover{
-	background-image: linear-gradient(to right, #dc3545, #38080d);
+	background-color: #23238E;
 }
 
 .card-group > a{
 	text-decoration: none;
 	display: inline-block;
 	text-align: center;
-	background-image: linear-gradient(to right, red, blue);
+	background-color: rgb(37, 150, 190);
 	width: 93%;
 	border-radius: 100px;
 	padding: 15px;
@@ -76,7 +80,7 @@ html, body {
 }
 
 .btn a:hover{
-	background-image: linear-gradient(to right, #dc3545, #38080d);
+	background-color: #23238E;
 }
 
 .title{
