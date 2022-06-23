@@ -7,10 +7,6 @@ html, body {
 	height: 100%;
 }
 
-.corpo {
-	background: linear-gradient(white, #007FFF);
-}
-
 .form {
 	width: 400px;
 	margin: auto;
@@ -19,7 +15,6 @@ html, body {
 }
 
 .card {
-	box-shadow: 1px 1px 1px #ccc;
 	background-color: white;
 	padding: 30px;
 	border-radius: 5px;
