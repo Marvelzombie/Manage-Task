@@ -15,9 +15,7 @@ html, body {
 }
 
 .card {
-	background-color: white;
 	padding: 30px;
-	border-radius: 5px;
 }
 
 .card-top{
@@ -79,6 +77,6 @@ html, body {
 	background-color: #23238E;
 }
 
-.title{
+#title{
 	color: #dc3545;
 }
