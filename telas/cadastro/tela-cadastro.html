@@ -3,21 +3,21 @@
 	<head>
 		<title>Cadastro</title>
 		<meta charset="utf-8">
-        <link href="stylesheets.css" rel="stylesheet" />
-        <script>
-            function validarSenha(){
-                const senha = document.querySelector('input[name=senha]');
-                const confirma = document.querySelector('input[name=confirma]');
+        	<link href="stylesheets.css" rel="stylesheet" />
+		<script>
+		    function validarSenha(){
+			const senha = document.querySelector('input[name=senha]');
+			const confirma = document.querySelector('input[name=confirma]');
 
-                if (senha.value === confirma.value) {
-                    confirma.setCustomValidity('');
-                    return true;
-                }else{
-                    confirma.setCustomValidity('Senhas não conferem!');
-                    return false;
-                }
-            }
-        </script>
+			if (senha.value === confirma.value) {
+			    confirma.setCustomValidity('');
+			    return true;
+			}else{
+			    confirma.setCustomValidity('Senhas não conferem!');
+			    return false;
+			}
+		    }
+		</script>
 	</head>
 
 	<body class="corpo">
